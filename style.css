@@ -1,0 +1,124 @@
+.calculator {
+  width: 250px;
+  height: 300px;
+  display: grid;
+  background-color: #333;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". . . display"
+    "opplus opminus opmult opdiv"
+    "num7 num8 num9 opequal"
+    "num4 num5 num6 opequal"
+    "num1 num2 num3 opequal"
+    "numzero dot clear opequal";
+}
+
+.display {
+  grid-area: display;
+  background-color: #333;
+  text-align: right;
+  color: white;
+}
+
+.opplus {
+  grid-area: opplus;
+  background-color: rgb(140, 197, 255);
+  color: black;
+}
+
+.opminus {
+  color: black;
+  grid-area: opminus;
+  background-color: rgb(140, 197, 255);
+}
+
+.opmult {
+  color: black;
+  grid-area: opmult;
+  background-color: rgb(140, 197, 255);
+}
+
+.opdiv {
+  color: black;
+  grid-area: opdiv;
+  background-color: rgb(140, 197, 255);
+}
+
+.num1 {
+  color: black;
+  grid-area: num1;
+  background-color: bisque;
+}
+
+.num2 {
+  color: black;
+  grid-area: num2;
+  background-color: bisque;
+}
+
+.num3 {
+  color: black;
+  grid-area: num3;
+  background-color: bisque;
+}
+
+.num4 {
+  color: black;
+  grid-area: num4;
+  background-color: bisque;
+}
+
+.num5 {
+  color: black;
+  grid-area: num5;
+  background-color: bisque;
+}
+
+.num6 {
+  color: black;
+  grid-area: num6;
+  background-color: bisque;
+}
+
+.num7 {
+  color: black;
+  grid-area: num7;
+  background-color: bisque;
+}
+
+.num8 {
+  color: black;
+  grid-area: num8;
+  background-color: bisque;
+}
+
+.num9 {
+  color: black;
+  grid-area: num9;
+  background-color: bisque;
+}
+
+.opequal {
+  color: black;
+  grid-area: opequal;
+  background-color: palevioletred;
+}
+
+.numzero {
+  color: black;
+  grid-area: numzero;
+  background-color: bisque;
+}
+
+.dot {
+  color: black;
+  grid-area: dot;
+  background-color: bisque;
+}
+
+.clear {
+  color: black;
+  grid-area: clear;
+  background-color: bisque;
+}
